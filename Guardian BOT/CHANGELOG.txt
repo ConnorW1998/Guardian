@@ -1,0 +1,38 @@
+=================================02/19/2020=================================
+Guardian created and added to server.
+ADDED
+Ping command
+Chat filter ver 0.1 (just said "BAD WORD" when someone says "hello")
+=================================02/20/2020=================================
+ADDED
+addCurse
+removeCurse
+REMOVED
+"hello" as bad word, using dictionaries to find bad word.
+=================================03/23/2020=================================
+ADDED
+Filter intensity and commands to change it
+REMOVED
+addCurse/removeCurse commands
+=================================03/23/2020=================================
+ADDED
+Message.Content search (ONLY FILTERS ONE WORD MESSAGES) - Chat filter ver 0.2
+Filter command now allows words "soft, tough, fair, none" along with original numbers "0-3"
+Filter command "in chat notification of change" message now surrounds filter strength with quotes
+Console logging (dd/mm/yyyy - hh:mm:ss - username: message)
+REMOVED
+Chat filter ver 0.1
+=================================03/24/2020=================================
+ADDED
+Chat Filter ver 1.0 (now searches through each word in the message!)
+Console logging now includes a list of bad words found in the whole message.
+=================================03/29/2020=================================
+ADDED
+Moderation messages in place of visual console output for mods/admins
+channel command added - Allows changing of moderation messages output channel
+REMOVED
+"BAD WORD" text when deleting inappropriate messages
+=================================04/9/2020=================================
+ADDED
+Purge command
+Poll command ver 1.0 (plan on making emoji's changeable and based on poll-maker's input)
